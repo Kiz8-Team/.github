@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 140" width="360" height="140">
+  <defs>
+    <pattern id="bp-inv" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0v20" fill="none" stroke="#F2F2F2" stroke-width="1" stroke-opacity="0.08"></path>
+    </pattern>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="359" height="139" fill="#0D0D0D" stroke="#F2F2F2" stroke-width="1"></rect>
+  <rect x="0.5" y="0.5" width="359" height="139" fill="url(#bp-inv)"></rect>
+
+  <path d="M6 18 V6 H18" stroke="#FF4D00" stroke-width="2" fill="none"></path>
+  <path d="M354 18 V6 H342" stroke="#FF4D00" stroke-width="2" fill="none"></path>
+  <path d="M6 122 V134 H18" stroke="#FF4D00" stroke-width="2" fill="none"></path>
+  <path d="M354 122 V134 H342" stroke="#FF4D00" stroke-width="2" fill="none"></path>
+
+  <text x="16" y="17" font-family="JetBrains Mono, monospace" font-weight="700" font-size="8" letter-spacing="2" fill="#FF4D00">REF.01</text>
+  <text x="320" y="132" font-family="JetBrains Mono, monospace" font-weight="700" font-size="8" letter-spacing="2" fill="#F2F2F2" fill-opacity="0.5">A-001</text>
+
+  <text x="40" y="92" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="72" letter-spacing="-3.6" fill="#F2F2F2">Kiz</text>
+  <text x="232" y="92" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="72" letter-spacing="-3.6" fill="#FF4D00">8</text>
+</svg>
