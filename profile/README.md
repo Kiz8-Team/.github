@@ -3,7 +3,7 @@
   <img alt="Kiz8 — data engineering and applied research for finance" src="./assets/banner.png">
 </picture>
 
-**Kiz8 is an independent data engineering and applied research studio for the financial industry.**
+**Kiz8 is an independent data engineering and applied research studio for the financial industry.**<br>
 Engineers and researchers based in Lisbon since 2024: data, analytics, infrastructure, and research under one roof.
 
 [kiz8.com](https://kiz8.com) · [Hugging Face](https://huggingface.co/Kiz8) · [LinkedIn](https://www.linkedin.com/company/kiz8/)
@@ -34,7 +34,7 @@ Problems from practice become research topics. Research improves our methods, an
 
 ## `03` Open source
 
-**[pi-cwl](https://github.com/Kiz8-Team/pi-cwl)** · `MIT`
+**[pi-cwl](https://github.com/Kiz8-Team/pi-cwl)** · `MIT`<br>
 Reference implementation of Context Window Lifecycle: structured context eviction that lets a long-horizon LLM agent keep working past its context window. Built on a fork of the pi.dev terminal coding agent. For engineers building long-running agents who have hit the limits of summarisation-based compaction.
 
 ```bash
@@ -43,7 +43,7 @@ cd pi-cwl && npm install && npm run build
 pi
 ```
 
-**[jean-claude-kar-pathy](https://github.com/Kiz8-Team/jean-claude-kar-pathy)** · `Claude Code plugin`
+**[jean-claude-kar-pathy](https://github.com/Kiz8-Team/jean-claude-kar-pathy)** · `Claude Code plugin`<br>
 Builds and maintains an LLM-written wiki for any project, after Andrej Karpathy’s LLM Wiki pattern, so session knowledge compounds instead of vanishing when the context is cleared. For teams working with Claude Code who keep re-explaining the same project to every new session.
 
 ```bash
