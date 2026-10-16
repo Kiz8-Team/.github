@@ -1,107 +1,62 @@
-<div align="center">
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-grid-stamp-inverse.svg">
-  <img alt="Kiz8" src="./assets/logo-grid-stamp.svg" width="600">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.png">
+  <img alt="Kiz8 — data engineering and applied research for finance" src="./assets/banner.png">
 </picture>
 
-<br>
-<br>
+**Kiz8 is an independent data engineering and applied research studio for the financial industry.**
+Engineers and researchers based in Lisbon since 2024: data, analytics, infrastructure, and research under one roof.
 
-### We build and deploy **AI agents** inside your company.
+[kiz8.com](https://kiz8.com) · [Hugging Face](https://huggingface.co/Kiz8) · [LinkedIn](https://www.linkedin.com/company/kiz8/)
 
-`2026 · 40+ AGENTS SHIPPED · 12 LIVE NOW · AVG TIME-TO-PROD 6W`
+## `01` What clients bring us
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/expertise-dark.png">
+  <img alt="01 Data foundations: reliable data, integrations, pipelines, and infrastructure to build on. 02 Analytics and decision systems: understand what is happening and make better operational decisions. 03 Applied R&amp;D: a tested hypothesis — what works, under which constraints, and whether it’s worth deploying." src="./assets/expertise.png">
+</picture>
 
-[![Visit kiz8.com](https://img.shields.io/badge/▸_VISIT-KIZ8.COM-FF4D00?style=for-the-badge&labelColor=0D0D0D)](https://kiz8.com)
-[![Email](https://img.shields.io/badge/HELLO-@KIZ8.COM-0D0D0D?style=for-the-badge&labelColor=F2F2F2)](mailto:hello@kiz8.com)
-[![Book a call](https://img.shields.io/badge/BOOK-30_MIN_DISCOVERY-0D0D0D?style=for-the-badge&labelColor=F2F2F2)](https://cal.com/kiz8)
+ML, AI agents, RAG, and automation come in where the problem needs them.
 
-</div>
+## `02` Research
 
----
+Problems from practice become research topics. Research improves our methods, and part of it becomes open tools.
 
-## / what_we_do
+<a href="https://arxiv.org/abs/2606.11213">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/research-dark.png">
+  <img alt="Paper, arXiv:2606.11213, May 2026: Beyond Compaction — structured context eviction for long-horizon agents. Andrew Semenov, Svyatoslav Dorofeev. 89 sequential tasks in one session, 80M+ tokens across the session, 80K token budget, 68.25% on Terminal Bench 2.0 with CWL against a 68.40% baseline." src="./assets/research.png">
+</picture>
+</a>
 
-**Kiz8 is an AI integration partner — not a platform, not a SaaS.**
+**Can one long-running LLM agent keep working once its history outgrows the context window, without summarising that history away?** Context Window Lifecycle (CWL) has the agent annotate its own trajectory as typed, dependency-linked episodes; when the token budget is exceeded, a deterministic policy evicts the oldest and most recoverable content first and never drops context an open action still depends on. One session completed 89 sequential tasks across more than 80 million tokens, with no measurable accuracy loss against fresh per-task sessions.
 
-We embed with your team, design the agent, ship the code into your stack, and keep it running. Repo lives in your org. Rollback is one click. On-call P1 is under 15 minutes.
+[Read the paper ↗](https://arxiv.org/abs/2606.11213) · [Code: pi-cwl](https://github.com/Kiz8-Team/pi-cwl)
 
-<br>
+## `03` Open source
 
-<div align="center">
+**[pi-cwl](https://github.com/Kiz8-Team/pi-cwl)** · `MIT`
+Reference implementation of Context Window Lifecycle: structured context eviction that lets a long-horizon LLM agent keep working past its context window. Built on a fork of the pi.dev terminal coding agent. For engineers building long-running agents who have hit the limits of summarisation-based compaction.
 
-![HQ](https://img.shields.io/badge/HQ-LISBON_·_REMOTE-0D0D0D?style=flat-square&labelColor=F2F2F2)
-![Structure](https://img.shields.io/badge/STRUCTURE-INDEPENDENT_·_NO_VC-0D0D0D?style=flat-square&labelColor=F2F2F2)
-![Compliance](https://img.shields.io/badge/COMPLIANCE-SOC2_·_HIPAA_·_EU_AI_ACT-FF4D00?style=flat-square&labelColor=0D0D0D)
-![Founded](https://img.shields.io/badge/FOUNDED-2022-0D0D0D?style=flat-square&labelColor=F2F2F2)
+```bash
+git clone https://github.com/Kiz8-Team/pi-cwl
+cd pi-cwl && npm install && npm run build
+pi
+```
 
-</div>
+**[jean-claude-kar-pathy](https://github.com/Kiz8-Team/jean-claude-kar-pathy)** · `Claude Code plugin`
+Builds and maintains an LLM-written wiki for any project, after Andrej Karpathy’s LLM Wiki pattern, so session knowledge compounds instead of vanishing when the context is cleared. For teams working with Claude Code who keep re-explaining the same project to every new session.
 
----
+```bash
+git clone https://github.com/Kiz8-Team/jean-claude-kar-pathy
+cp jean-claude-kar-pathy/commands/jean.md ~/.claude/commands/jean.md
+# then run /jean inside Claude Code
+```
 
-## / services
+## `04` Discuss a project
 
-| | | |
-|---|---|---|
-| **AI Agents** | autonomous · task-specific | Fraud triage · ops copilots · doc processing · sales qualification |
-| **RAG Systems** | on your private data | Vector + BM25 hybrid · permission-aware · audit trail · domain reranker |
-| **Data Pipelines & MLOps** | terabyte-scale | Kafka / CDC · dbt / Airflow · feature store · model registry |
-| **Custom ML Models** | fraud · forecasting · recs | Bespoke models against your specific signal and your specific edge cases |
-| **AI Discovery** | strategy · roadmap · ROI | Use-case scoring · data readiness · build vs. buy · 12-mo roadmap |
+> **From raw data to better decisions.**
+> Send one paragraph about the data, the decision it should support, or the hypothesis you need tested. We reply with what we would look at first.
 
----
+**[hello@kiz8.com](mailto:hello@kiz8.com)** · [kiz8.com](https://kiz8.com)
 
-## / facts
-
-|       |                            |       |                              |
-| ----- | -------------------------- | ----- | ---------------------------- |
-| `40+` | agents in production       | `22`  | engineers                    |
-| `7`   | client industries          | `6 w` | avg. time to first agent     |
-| `0`   | rollbacks on customer ask  | `4 y` | avg. client retention        |
-| `98.3%` | projects shipped on time | `<15m` | on-call P1                  |
-
----
-
-## / principles
-
-**01 · Ship · then measure**
-We don't build "PoCs". Every engagement ships to prod with SLOs, rollbacks and monitoring on day one.
-
-**02 · Reversible by default**
-Every agent we put in the loop has a kill-switch, a manual override, and an audit trail. Nothing goes one-way.
-
-**03 · Own the boring layer**
-Eval harnesses, data pipelines, observability. The unglamorous work that decides whether AI survives contact with reality.
-
-**04 · No model-worship**
-We use the smallest model that clears the bar. Frontier weights are an option, not a brand.
-
----
-
-## / stack
-
-`GPT-4/5` · `Claude` · `Llama` · `Mistral` · `fine-tuning` · `evals`
-`AWS` · `GCP` · `Kubernetes` · `Terraform` · `Docker` · `edge`
-`Snowflake` · `BigQuery` · `Kafka` · `dbt` · `Airflow` · `Iceberg`
-`TypeScript` · `React` · `Next` · `Python` · `Go` · `Rust`
-
----
-
-## / contact
-
-> **Tell us what you want to automate.**
-> Send us one paragraph about the workflow you'd hand to an agent. We'll reply with a 30-min discovery call and a shortlist of what's actually worth building.
-
-▸ **Site** — [kiz8.com](https://kiz8.com)
-▸ **Email** — [hello@kiz8.com](mailto:hello@kiz8.com)
-▸ **Book a call** — [cal.com/kiz8](https://cal.com/kiz8)
-
-<br>
-
-<div align="center">
-
-`LISBON · REMOTE (GLOBAL) · EU / US / CIS · REPO-OWNED IN YOUR ORG`
-
-</div>
+<sub>Kiz8 · Lisbon, since 2024 · Every illustration is drawn in code, one scanline at a time.</sub>
